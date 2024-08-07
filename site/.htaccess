@@ -19,5 +19,3 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 RewriteRule ^(.*)\.html$ $1 [L]
 
-ErrorDocument 403 /Error.aspx?code=403
-ErrorDocument 404 /Error.aspx?code=404
